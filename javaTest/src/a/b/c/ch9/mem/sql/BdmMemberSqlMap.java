@@ -128,7 +128,7 @@ public abstract class BdmMemberSqlMap {
 		sb.append("			,HHOBBY 		= ? 		\n"); // placeholder 3
 		sb.append("			,HJOB   		= ?			\n"); // placeholder 4	        		
 	    sb.append("		  	,UPDATEDATE 	= SYSDATE	\n");
-		sb.append("	WHERE  	 HNUM 			= ?			\n"); // placeholder 5	    
+		sb.append("	WHERE  	 BNUM 			= ?			\n"); // placeholder 5	    
 		sb.append("	AND    	 DELETEYN 		= 'Y'  		\n");
 		
 		return sb.toString();
